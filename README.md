@@ -148,6 +148,18 @@ inside boundaries they cannot quietly cross, with a trail you can verify after t
 
 <div align="center">
 
+### ACTIVITY
+
+<!-- Contribution line graph = productivity over time. Separate service from the stat
+     cards; reflects public contributions (+ private once the profile privacy setting is on). -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Knapp-Kevin&custom_title=Contribution%20Activity&bg_color=0d1117&title_color=3B82F6&color=c9d1d9&line=3B82F6&point=ffffff&area=true&area_color=1e3a8a&hide_border=true" width="100%" alt="contribution activity graph">
+
+</div>
+
+---
+
+<div align="center">
+
 ### STATS & ACHIEVEMENTS
 
 <!-- Live per-repo star counts across owned orgs (MythologIQ-Labs-LLC + BicameralAI).
