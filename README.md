@@ -138,10 +138,14 @@ inside boundaries they cannot quietly cross, with a trail you can verify after t
 <!-- Contribution calendar, rendered daily by .github/workflows/3d-contrib.yml -->
 <img src="./profile-3d-contrib/profile-night-view.svg" width="100%" alt="contribution graph">
 
-<!-- Language + activity breakdown by COMMIT analysis (forks included), rendered daily
-     by .github/workflows/metrics.yml. github-readme-stats is omitted on purpose: it
-     can't see forks and counts languages by file size, so it misreports the stack. -->
+<!-- Metrics language panel intentionally hidden. lowlighter/metrics attributes languages
+     by commit-author email and found "No push activity" for this account, because the
+     fork commits (where the Python work lives) are authored under a different email than
+     the one linked to Knapp-Kevin, so it rendered empty. The curated Toolset section
+     below is the accurate stack. To re-enable: align your git commit email with the
+     GitHub account, re-run .github/workflows/metrics.yml, then uncomment the line below.
 <img src="./github-metrics.svg" width="100%" alt="metrics">
+-->
 
 
 </div>

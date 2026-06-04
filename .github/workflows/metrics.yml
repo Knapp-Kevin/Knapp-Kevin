@@ -1,11 +1,9 @@
 name: Metrics
 
 on:
-  schedule:
-    - cron: "0 6 * * *"   # daily, 06:00 UTC
+  # Manual only until commit-email attribution is fixed (otherwise it renders
+  # "No push activity found"). See the note in README.md.
   workflow_dispatch:
-  push:
-    branches: [main]
 
 permissions:
   contents: write
