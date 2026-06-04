@@ -17,14 +17,14 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Generate 3D contribution graph
+        # This action reads USERNAME and GITHUB_TOKEN from env (no `with:` inputs).
+        # Output lands in ./profile-3d-contrib/ ; the README references
+        # profile-night-view.svg (dark, blue-toned). Other variants exist
+        # (profile-green-animate, profile-gitblock, profile-season-animate).
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          USERNAME: Knapp-Kevin
-          # Output lands in ./profile-3d-contrib/ ; the README references
-          # profile-night-view.svg (dark, blue-toned). Other variants exist
-          # (profile-green-animate, profile-gitblock, profile-season-animate).
+          USERNAME: ${{ github.repository_owner }}
 
       - name: Commit rendered SVGs
         run: |
