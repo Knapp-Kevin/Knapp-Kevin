@@ -174,8 +174,11 @@ inside boundaries they cannot quietly cross, with a trail you can verify after t
 ### STATS & ACHIEVEMENTS
 
 <!-- Overview stats with stars hidden (owned-repo stars are 0 / misleading; org stars are
-     on the pin cards). include_all_commits counts commits beyond owned repos. -->
-<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Knapp-Kevin&show_icons=true&hide=stars&include_all_commits=true&hide_border=true&bg_color=0d1117&title_color=3B82F6&icon_color=3B82F6&text_color=c9d1d9" alt="stats" height="165">
+     on the pin cards). count_private folds private contributions into the totals — this
+     only takes effect once "Include private contributions on my profile" is enabled in
+     GitHub settings (github.com/settings/profile). include_all_commits is intentionally
+     NOT set: it would switch to a public-only all-time count and drop the private ones. -->
+<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Knapp-Kevin&show_icons=true&hide=stars&count_private=true&hide_border=true&bg_color=0d1117&title_color=3B82F6&icon_color=3B82F6&text_color=c9d1d9" alt="stats" height="165">
 
 <br><br>
 
