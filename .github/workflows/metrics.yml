@@ -1,8 +1,8 @@
 name: Metrics
 
 on:
-  schedule:
-    - cron: "0 6 * * *"   # daily, 06:00 UTC
+  # Manual only until METRICS_TOKEN has `repo` + `read:org` scope. With only
+  # public_repo it renders empty (org repos can't be enumerated). See README note.
   workflow_dispatch:
 
 permissions:
