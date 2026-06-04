@@ -147,8 +147,12 @@ inside boundaries they cannot quietly cross, with a trail you can verify after t
 
 <img src="https://streak-stats.demolab.com?user=Knapp-Kevin&hide_border=true&background=0d1117&stroke=3B82F6&ring=3B82F6&fire=60a5fa&currStreakLabel=3B82F6&sideLabels=c9d1d9&currStreakNum=3B82F6&sideNums=3B82F6&dates=c9d1d9" alt="streak">
 
-<!-- Rendered by the lowlighter/metrics workflow (.github/workflows/metrics.yml). 404s until the first run. -->
+<!-- Rendered by the lowlighter/metrics workflow (.github/workflows/metrics.yml).
+     Add a METRICS_TOKEN secret (classic PAT: public_repo, read:user, read:org),
+     run the Metrics workflow once, then UNCOMMENT the line below.
 <img src="./github-metrics.svg" width="100%" alt="metrics">
+-->
+
 
 <!-- Rendered by the 3d-contrib workflow (.github/workflows/3d-contrib.yml). 404s until the first run. -->
 <img src="./profile-3d-contrib/profile-night-view.svg" width="100%" alt="contribution graph">
