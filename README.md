@@ -173,8 +173,18 @@ inside boundaries they cannot quietly cross, with a trail you can verify after t
 
 ### STATS & ACHIEVEMENTS
 
+<!-- Live per-repo star counts across owned orgs (MythologIQ-Labs-LLC + BicameralAI).
+     Self-updating via shields; this is where owned-org stars are surfaced positively. -->
+<a href="https://github.com/MythologIQ-Labs-LLC/FailSafe"><img src="https://img.shields.io/github/stars/MythologIQ-Labs-LLC/FailSafe?style=flat-square&logo=github&label=FailSafe&color=3B82F6&labelColor=0d1117" alt="FailSafe stars"></a>
+<a href="https://github.com/BicameralAI/bicameral-mcp"><img src="https://img.shields.io/github/stars/BicameralAI/bicameral-mcp?style=flat-square&logo=github&label=bicameral-mcp&color=3B82F6&labelColor=0d1117" alt="bicameral-mcp stars"></a>
+<a href="https://github.com/MythologIQ-Labs-LLC/Qor-logic"><img src="https://img.shields.io/github/stars/MythologIQ-Labs-LLC/Qor-logic?style=flat-square&logo=github&label=Qor-Logic&color=3B82F6&labelColor=0d1117" alt="Qor-Logic stars"></a>
+<a href="https://github.com/BicameralAI/bicameral-bot"><img src="https://img.shields.io/github/stars/BicameralAI/bicameral-bot?style=flat-square&logo=github&label=bicameral-bot&color=3B82F6&labelColor=0d1117" alt="bicameral-bot stars"></a>
+<a href="https://github.com/BicameralAI/bicameral-integrations"><img src="https://img.shields.io/github/stars/BicameralAI/bicameral-integrations?style=flat-square&logo=github&label=bicameral-integrations&color=3B82F6&labelColor=0d1117" alt="bicameral-integrations stars"></a>
+
+<br><br>
+
 <!-- Overview stats with stars hidden (owned-repo stars are 0 / misleading; org stars are
-     on the pin cards). count_private folds private contributions into the totals — this
+     shown live above + on the pin cards). count_private folds private contributions into the totals — this
      only takes effect once "Include private contributions on my profile" is enabled in
      GitHub settings (github.com/settings/profile). include_all_commits is intentionally
      NOT set: it would switch to a public-only all-time count and drop the private ones. -->
