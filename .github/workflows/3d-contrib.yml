@@ -23,7 +23,9 @@ jobs:
         # (profile-green-animate, profile-gitblock, profile-season-animate).
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Use the PAT (not the default Actions token) so PRIVATE + org-private
+          # contributions are counted, not just public ones.
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
 
       - name: Commit rendered SVGs

@@ -171,6 +171,19 @@ inside boundaries they cannot quietly cross, with a trail you can verify after t
 
 <div align="center">
 
+### ACHIEVEMENTS
+
+<!-- Trophy service aggregates contribution stats (commits, PRs, issues, reviews, repos,
+     followers). Stars trophy is excluded via title= because it only counts owned-repo
+     stars (org stars are surfaced on the pin cards instead). -->
+<img src="https://github-profile-trophy.vercel.app/?username=Knapp-Kevin&theme=algolia&no-frame=true&column=7&margin-w=8&margin-h=8&title=Commits,Followers,Issues,PullRequest,Repositories,Reviews,Experience" alt="achievements">
+
+</div>
+
+---
+
+<div align="center">
+
 ### TOOLSET
 
 </div>
