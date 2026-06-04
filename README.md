@@ -153,13 +153,14 @@ inside boundaries they cannot quietly cross, with a trail you can verify after t
 <!-- Contribution calendar, rendered daily by .github/workflows/3d-contrib.yml -->
 <img src="./profile-3d-contrib/profile-night-view.svg" width="100%" alt="contribution graph">
 
-<!-- Metrics aggregate panel intentionally hidden. lowlighter/metrics renders empty
-     ("0 Languages", no stars) because enumerating org repos via organization_member
-     affiliation needs a PAT with `repo` + `read:org` scope; the current METRICS_TOKEN
-     lacks it. Per-repo stars are already shown on the pin cards above, and the Toolset
-     section is the accurate stack. To enable the aggregate panel: recreate METRICS_TOKEN
-     as a classic PAT with `repo`, `read:org`, `read:user`, re-run the Metrics workflow,
-     then uncomment the line below.
+<!-- Metrics aggregate panel intentionally hidden. The METRICS_TOKEN scope is fine now
+     (the workflow fetches all 200 owned+org repos), but lowlighter/metrics still won't
+     render usefully on the GitHub runner: the languages plugin returns "0 Languages"
+     and the header surfaces no aggregate star total without disproportionate
+     Docker/linguist setup. Not worth it here — per-repo stars are already shown on the
+     pin cards above (FailSafe, Qor-logic, bicameral-*), and the Toolset section is the
+     accurate stack. The Metrics workflow is kept (manual trigger) in case a future run
+     behaves; to show it, run it and uncomment the line below.
 <img src="./github-metrics.svg" width="100%" alt="metrics">
 -->
 
