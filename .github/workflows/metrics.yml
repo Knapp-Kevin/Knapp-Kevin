@@ -1,8 +1,8 @@
 name: Metrics
 
 on:
-  # Manual only until commit-email attribution is fixed (otherwise it renders
-  # "No push activity found"). See the note in README.md.
+  schedule:
+    - cron: "0 6 * * *"   # daily, 06:00 UTC
   workflow_dispatch:
 
 permissions:
@@ -15,20 +15,27 @@ jobs:
       - name: Render metrics panel
         uses: lowlighter/metrics@latest
         with:
-          # Create a classic Personal Access Token with scopes: public_repo, read:user, read:org
-          # and add it as a repo secret named METRICS_TOKEN.
+          # Classic PAT with scopes: repo, read:org, read:user. Stored as METRICS_TOKEN.
           token: ${{ secrets.METRICS_TOKEN }}
           user: Knapp-Kevin
           filename: github-metrics.svg
           template: classic
           config_timezone: America/Chicago   # adjust to your timezone
 
-          # No vanity header: 0 owned stars would misrepresent the work.
-          base: ""
+          # Aggregate across owned AND org repos (MythologIQ-Labs-LLC, BicameralAI),
+          # so stars, languages, and activity reflect the real footprint.
+          repositories: 200
+          repositories_affiliations: owner, collaborator, organization_member
 
-          # Languages by COMMIT analysis (not file size), including the forked
-          # repos where most of the Python governance work actually lives. This
-          # is the whole reason github-readme-stats was dropped from the README.
+          # Attribute commits authored under any of Kevin's identities. Without this,
+          # fork/org commits authored under a non-account email/name are not credited
+          # and the language panel renders empty ("No push activity found").
+          commits_authoring: krknapp@gmail.com, admin@mythologiq.studio, MythologIQ, Kevin Knapp, Knapp-Kevin, WulfForge
+
+          # Header carries the org-inclusive star / repo / contribution totals.
+          base: header
+
+          # Languages by COMMIT analysis (not file size), including forks and org repos.
           plugin_languages: yes
           plugin_languages_analysis: yes
           plugin_languages_sections: most-used, recently-used

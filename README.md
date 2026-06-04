@@ -93,8 +93,11 @@ inside boundaries they cannot quietly cross, with a trail you can verify after t
 | --- | --- |
 | **[agent-governance-toolkit](https://github.com/microsoft/agent-governance-toolkit)** | Microsoft's open governance toolkit for autonomous agents. Maintainer / contributor. |
 | **[FailSafe](https://github.com/MythologIQ-Labs-LLC/FailSafe)** | MythologIQ's deterministic governance layer. Shadow Genome, gated SDLC, verifiable ledger. |
-| **[Qor](https://github.com/Knapp-Kevin/Qor)** | Qor-Logic: agentic gated-SDLC governance. Plan, audit, implement, validate. |
-| **[bicameral-mcp](https://github.com/Knapp-Kevin/bicameral-mcp)** | Decision-ledger MCP server. Maps decisions to code and tracks drift. |
+| **[Qor-Logic](https://github.com/MythologIQ-Labs-LLC/Qor-logic)** | A gated prompt framework for AI agents. Started in SDLC, expanding to broader governance. |
+| **[bicameral-mcp](https://github.com/BicameralAI/bicameral-mcp)** | Agent-facing Bicameral MCP tools: ingest, preflight, binding, and review. |
+| **[bicameral-bot](https://github.com/BicameralAI/bicameral-bot)** | Local-first Bicameral daemon, gateway, protocol, review UX, and local code grounding (Rust). |
+| **[bicameral-integrations](https://github.com/BicameralAI/bicameral-integrations)** | Open-source Bicameral adapters emitting candidates, evidence, and advisory signals. |
+| **bicameral-cloud** *(private)* | Hosted Bicameral cloud: code graph, conflict oracle, and grounding optimization. |
 
 <div align="center">
 
@@ -113,19 +116,31 @@ inside boundaries they cannot quietly cross, with a trail you can verify after t
   </tr>
   <tr>
     <td width="50%">
-      <a href="https://github.com/Knapp-Kevin/Qor">
-        <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=Knapp-Kevin&repo=Qor&hide_border=true&bg_color=0d1117&title_color=3B82F6&icon_color=3B82F6&text_color=c9d1d9" alt="Qor">
+      <a href="https://github.com/MythologIQ-Labs-LLC/Qor-logic">
+        <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=MythologIQ-Labs-LLC&repo=Qor-logic&hide_border=true&bg_color=0d1117&title_color=3B82F6&icon_color=3B82F6&text_color=c9d1d9" alt="Qor-Logic">
       </a>
     </td>
     <td width="50%">
-      <a href="https://github.com/Knapp-Kevin/bicameral-mcp">
-        <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=Knapp-Kevin&repo=bicameral-mcp&hide_border=true&bg_color=0d1117&title_color=3B82F6&icon_color=3B82F6&text_color=c9d1d9" alt="bicameral-mcp">
+      <a href="https://github.com/BicameralAI/bicameral-mcp">
+        <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=BicameralAI&repo=bicameral-mcp&hide_border=true&bg_color=0d1117&title_color=3B82F6&icon_color=3B82F6&text_color=c9d1d9" alt="bicameral-mcp">
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <a href="https://github.com/BicameralAI/bicameral-bot">
+        <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=BicameralAI&repo=bicameral-bot&hide_border=true&bg_color=0d1117&title_color=3B82F6&icon_color=3B82F6&text_color=c9d1d9" alt="bicameral-bot">
+      </a>
+    </td>
+    <td width="50%">
+      <a href="https://github.com/BicameralAI/bicameral-integrations">
+        <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=BicameralAI&repo=bicameral-integrations&hide_border=true&bg_color=0d1117&title_color=3B82F6&icon_color=3B82F6&text_color=c9d1d9" alt="bicameral-integrations">
       </a>
     </td>
   </tr>
 </table>
 
-<!-- Add the rest of the bicameral tree (bot, integrations) once public: copy a <td> block and swap username/repo. -->
+<!-- bicameral-cloud is private, so it has no pin card (would 404). Listed in the table above. -->
 
 </div>
 
