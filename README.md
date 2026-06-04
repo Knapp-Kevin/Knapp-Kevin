@@ -89,60 +89,18 @@ inside boundaries they cannot quietly cross, with a trail you can verify after t
 
 ### SELECTED WORK
 
-| Project | What it is |
-| --- | --- |
-| **[agent-governance-toolkit](https://github.com/microsoft/agent-governance-toolkit)** | Microsoft's open governance toolkit for autonomous agents. Maintainer / contributor. |
-| **[FailSafe](https://github.com/MythologIQ-Labs-LLC/FailSafe)** | MythologIQ's deterministic governance layer. Shadow Genome, gated SDLC, verifiable ledger. |
-| **[Qor-Logic](https://github.com/MythologIQ-Labs-LLC/Qor-logic)** | A gated prompt framework for AI agents. Started in SDLC, expanding to broader governance. |
-| **[bicameral-mcp](https://github.com/BicameralAI/bicameral-mcp)** | Agent-facing Bicameral MCP tools: ingest, preflight, binding, and review. |
-| **[bicameral-bot](https://github.com/BicameralAI/bicameral-bot)** | Local-first Bicameral daemon, gateway, protocol, review UX, and local code grounding (Rust). |
-| **[bicameral-integrations](https://github.com/BicameralAI/bicameral-integrations)** | Open-source Bicameral adapters emitting candidates, evidence, and advisory signals. |
-| **bicameral-cloud** *(private)* | Hosted Bicameral cloud: code graph, conflict oracle, and grounding optimization. |
+<!-- Stack = static language badge + LIVE star count (shields.io, no token pool, never errors).
+     Replaces the flaky github-readme-stats pin cards. -->
 
-<div align="center">
-
-<table>
-  <tr>
-    <td width="50%">
-      <a href="https://github.com/microsoft/agent-governance-toolkit">
-        <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=microsoft&repo=agent-governance-toolkit&hide_border=true&bg_color=0d1117&title_color=3B82F6&icon_color=3B82F6&text_color=c9d1d9" alt="agent-governance-toolkit">
-      </a>
-    </td>
-    <td width="50%">
-      <a href="https://github.com/MythologIQ-Labs-LLC/FailSafe">
-        <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=MythologIQ-Labs-LLC&repo=FailSafe&hide_border=true&bg_color=0d1117&title_color=3B82F6&icon_color=3B82F6&text_color=c9d1d9" alt="FailSafe">
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <a href="https://github.com/MythologIQ-Labs-LLC/Qor-logic">
-        <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=MythologIQ-Labs-LLC&repo=Qor-logic&hide_border=true&bg_color=0d1117&title_color=3B82F6&icon_color=3B82F6&text_color=c9d1d9" alt="Qor-Logic">
-      </a>
-    </td>
-    <td width="50%">
-      <a href="https://github.com/BicameralAI/bicameral-mcp">
-        <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=BicameralAI&repo=bicameral-mcp&hide_border=true&bg_color=0d1117&title_color=3B82F6&icon_color=3B82F6&text_color=c9d1d9" alt="bicameral-mcp">
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <a href="https://github.com/BicameralAI/bicameral-bot">
-        <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=BicameralAI&repo=bicameral-bot&hide_border=true&bg_color=0d1117&title_color=3B82F6&icon_color=3B82F6&text_color=c9d1d9" alt="bicameral-bot">
-      </a>
-    </td>
-    <td width="50%">
-      <a href="https://github.com/BicameralAI/bicameral-integrations">
-        <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=BicameralAI&repo=bicameral-integrations&hide_border=true&bg_color=0d1117&title_color=3B82F6&icon_color=3B82F6&text_color=c9d1d9" alt="bicameral-integrations">
-      </a>
-    </td>
-  </tr>
-</table>
-
-<!-- bicameral-cloud is private, so it has no pin card (would 404). Listed in the table above. -->
-
-</div>
+| Project | Stack | What it is |
+| --- | --- | --- |
+| **[agent-governance-toolkit](https://github.com/microsoft/agent-governance-toolkit)** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) [![stars](https://img.shields.io/github/stars/microsoft/agent-governance-toolkit?style=flat-square&logo=github&label=&color=3B82F6&labelColor=0d1117)](https://github.com/microsoft/agent-governance-toolkit/stargazers) | Microsoft's open governance toolkit for autonomous agents. Maintainer / contributor. |
+| **[FailSafe](https://github.com/MythologIQ-Labs-LLC/FailSafe)** | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) [![stars](https://img.shields.io/github/stars/MythologIQ-Labs-LLC/FailSafe?style=flat-square&logo=github&label=&color=3B82F6&labelColor=0d1117)](https://github.com/MythologIQ-Labs-LLC/FailSafe/stargazers) | MythologIQ's deterministic governance layer. Shadow Genome, gated SDLC, verifiable ledger. |
+| **[Qor-Logic](https://github.com/MythologIQ-Labs-LLC/Qor-logic)** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) [![stars](https://img.shields.io/github/stars/MythologIQ-Labs-LLC/Qor-logic?style=flat-square&logo=github&label=&color=3B82F6&labelColor=0d1117)](https://github.com/MythologIQ-Labs-LLC/Qor-logic/stargazers) | A gated prompt framework for AI agents. Started in SDLC, expanding to broader governance. |
+| **[bicameral-mcp](https://github.com/BicameralAI/bicameral-mcp)** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) [![stars](https://img.shields.io/github/stars/BicameralAI/bicameral-mcp?style=flat-square&logo=github&label=&color=3B82F6&labelColor=0d1117)](https://github.com/BicameralAI/bicameral-mcp/stargazers) | Agent-facing Bicameral MCP tools: ingest, preflight, binding, and review. |
+| **[bicameral-bot](https://github.com/BicameralAI/bicameral-bot)** | ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white) [![stars](https://img.shields.io/github/stars/BicameralAI/bicameral-bot?style=flat-square&logo=github&label=&color=3B82F6&labelColor=0d1117)](https://github.com/BicameralAI/bicameral-bot/stargazers) | Local-first Bicameral daemon, gateway, protocol, review UX, and local code grounding. |
+| **[bicameral-integrations](https://github.com/BicameralAI/bicameral-integrations)** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) [![stars](https://img.shields.io/github/stars/BicameralAI/bicameral-integrations?style=flat-square&logo=github&label=&color=3B82F6&labelColor=0d1117)](https://github.com/BicameralAI/bicameral-integrations/stargazers) | Open-source Bicameral adapters emitting candidates, evidence, and advisory signals. |
+| **bicameral-cloud** | ![Private](https://img.shields.io/badge/private-555555?style=flat-square&logo=github&logoColor=white) | Hosted Bicameral cloud: code graph, conflict oracle, and grounding optimization. |
 
 ---
 
@@ -160,29 +118,13 @@ inside boundaries they cannot quietly cross, with a trail you can verify after t
 
 <div align="center">
 
-### STATS & ACHIEVEMENTS
+### ACHIEVEMENTS
 
-<!-- Live per-repo star counts across owned orgs (MythologIQ-Labs-LLC + BicameralAI).
-     Self-updating via shields; this is where owned-org stars are surfaced positively. -->
-<a href="https://github.com/MythologIQ-Labs-LLC/FailSafe"><img src="https://img.shields.io/github/stars/MythologIQ-Labs-LLC/FailSafe?style=flat-square&logo=github&label=FailSafe&color=3B82F6&labelColor=0d1117" alt="FailSafe stars"></a>
-<a href="https://github.com/BicameralAI/bicameral-mcp"><img src="https://img.shields.io/github/stars/BicameralAI/bicameral-mcp?style=flat-square&logo=github&label=bicameral-mcp&color=3B82F6&labelColor=0d1117" alt="bicameral-mcp stars"></a>
-<a href="https://github.com/MythologIQ-Labs-LLC/Qor-logic"><img src="https://img.shields.io/github/stars/MythologIQ-Labs-LLC/Qor-logic?style=flat-square&logo=github&label=Qor-Logic&color=3B82F6&labelColor=0d1117" alt="Qor-Logic stars"></a>
-<a href="https://github.com/BicameralAI/bicameral-bot"><img src="https://img.shields.io/github/stars/BicameralAI/bicameral-bot?style=flat-square&logo=github&label=bicameral-bot&color=3B82F6&labelColor=0d1117" alt="bicameral-bot stars"></a>
-<a href="https://github.com/BicameralAI/bicameral-integrations"><img src="https://img.shields.io/github/stars/BicameralAI/bicameral-integrations?style=flat-square&logo=github&label=bicameral-integrations&color=3B82F6&labelColor=0d1117" alt="bicameral-integrations stars"></a>
-
-<br><br>
-
-<!-- Overview stats with stars hidden (owned-repo stars are 0 / misleading; org stars are
-     shown live above + on the pin cards). count_private folds private contributions into the totals — this
-     only takes effect once "Include private contributions on my profile" is enabled in
-     GitHub settings (github.com/settings/profile). include_all_commits is intentionally
-     NOT set: it would switch to a public-only all-time count and drop the private ones. -->
-<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Knapp-Kevin&show_icons=true&hide=stars&count_private=true&hide_border=true&bg_color=0d1117&title_color=3B82F6&icon_color=3B82F6&text_color=c9d1d9" alt="stats" height="165">
-
-<br><br>
-
-<!-- Trophies via github-trophies.vercel.app (the primary github-profile-trophy host
-     returns 402). Stars trophy excluded via title= (owned-repo stars only). -->
+<!-- Trophies aggregate contribution stats into ranks (commits, PRs, issues, reviews,
+     repos, followers) and stay up to date. Replaces the github-readme-stats overview
+     card, which hit "Unable to select next GitHub token from pool" under load. Per-repo
+     stars are shown live in the Selected Work table above. Host: github-trophies.vercel.app
+     (the primary github-profile-trophy host returns 402). Stars trophy excluded via title=. -->
 <img src="https://github-trophies.vercel.app/?username=Knapp-Kevin&theme=algolia&no-frame=true&column=7&margin-w=8&margin-h=8&title=Commits,Followers,Issues,PullRequest,Repositories,Reviews,Experience" alt="achievements">
 
 </div>
