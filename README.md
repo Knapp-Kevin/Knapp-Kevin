@@ -9,13 +9,7 @@
 
   <h1>Kevin Knapp</h1>
 
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3200&pause=1000&color=3B82F6&center=true&vCenter=true&width=720&lines=Agent+Governance+Architect;Founder%2C+MythologIQ;Zero-Trust+for+Autonomous+Agents;Gated+SDLC+%C2%B7+QoreLogic" alt="roles">
-
-  <br><br>
-
-  <img src="https://img.shields.io/badge/MythologIQ-GOVERNED-3B82F6?style=flat-square&labelColor=0d1117" alt="MythologIQ">
-  <img src="https://img.shields.io/badge/FailSafe-ARMED-1d4ed8?style=flat-square&labelColor=0d1117" alt="FailSafe">
-  <img src="https://img.shields.io/badge/OWASP_Agentic_Top_10-10%2F10-1e40af?style=flat-square&labelColor=0d1117" alt="OWASP 10/10">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3200&pause=1000&color=3B82F6&center=true&vCenter=true&width=720&lines=Agent+Governance+Architect;Founder%2C+MythologIQ;Zero-Trust+for+Autonomous+Agents;Gated+SDLC+%C2%B7+Qor-Logic" alt="roles">
 
 </div>
 
@@ -27,6 +21,13 @@ focus      deterministic policy · zero-trust identity · verifiable audit
 building   FailSafe · FailSafe Pro · agent-governance-toolkit (maintainer)
 doctrine   deny by default · provenance over phrasing · every decision leaves a trail
 ```
+
+<div align="center">
+
+> ### Governance by prompt isn't real governance.
+> #### It can only be enforced reliably by deterministic code, not by instructions a model is free to ignore.
+
+</div>
 
 ---
 
@@ -75,7 +76,7 @@ inside boundaries they cannot quietly cross, with a trail you can verify after t
     </td>
     <td align="center" width="33%">
       <img src="https://img.shields.io/badge/Gated_SDLC-4338ca?style=flat-square&labelColor=0d1117"><br>
-      <sub>QoreLogic · S.H.I.E.L.D. lifecycle · L1/L2/L3</sub>
+      <sub>Qor-Logic · S.H.I.E.L.D. lifecycle · L1/L2/L3</sub>
     </td>
     <td align="center" width="33%">
       <img src="https://img.shields.io/badge/Provenance_&_Audit-0ea5e9?style=flat-square&labelColor=0d1117"><br>
@@ -134,28 +135,18 @@ inside boundaries they cannot quietly cross, with a trail you can verify after t
 
 ### ACTIVITY
 
-<table>
-  <tr>
-    <td width="50%" align="center">
-      <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Knapp-Kevin&show_icons=true&hide_border=true&bg_color=0d1117&title_color=3B82F6&icon_color=3B82F6&text_color=c9d1d9" alt="stats">
-    </td>
-    <td width="50%" align="center">
-      <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Knapp-Kevin&layout=compact&hide_border=true&bg_color=0d1117&title_color=3B82F6&text_color=c9d1d9&langs_count=10" alt="languages">
-    </td>
-  </tr>
-</table>
+<!-- Contribution calendar, rendered daily by .github/workflows/3d-contrib.yml -->
+<img src="./profile-3d-contrib/profile-night-view.svg" width="100%" alt="contribution graph">
 
-<img src="https://streak-stats.demolab.com?user=Knapp-Kevin&hide_border=true&background=0d1117&stroke=3B82F6&ring=3B82F6&fire=60a5fa&currStreakLabel=3B82F6&sideLabels=c9d1d9&currStreakNum=3B82F6&sideNums=3B82F6&dates=c9d1d9" alt="streak">
-
-<!-- Rendered by the lowlighter/metrics workflow (.github/workflows/metrics.yml).
-     Add a METRICS_TOKEN secret (classic PAT: public_repo, read:user, read:org),
-     run the Metrics workflow once, then UNCOMMENT the line below.
+<!-- Accurate language + activity breakdown, rendered by .github/workflows/metrics.yml.
+     github-readme-stats is omitted on purpose: it can't see forked repos (where most of
+     the real work lives) and counts languages by file size, so it misreports the stack.
+     lowlighter/metrics analyzes commits instead. Add a METRICS_TOKEN secret
+     (classic PAT: public_repo, read:user, read:org), run the Metrics workflow once,
+     then UNCOMMENT the line below.
 <img src="./github-metrics.svg" width="100%" alt="metrics">
 -->
 
-
-<!-- Rendered by the 3d-contrib workflow (.github/workflows/3d-contrib.yml). 404s until the first run. -->
-<img src="./profile-3d-contrib/profile-night-view.svg" width="100%" alt="contribution graph">
 
 </div>
 
