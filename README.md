@@ -138,14 +138,10 @@ inside boundaries they cannot quietly cross, with a trail you can verify after t
 <!-- Contribution calendar, rendered daily by .github/workflows/3d-contrib.yml -->
 <img src="./profile-3d-contrib/profile-night-view.svg" width="100%" alt="contribution graph">
 
-<!-- Accurate language + activity breakdown, rendered by .github/workflows/metrics.yml.
-     github-readme-stats is omitted on purpose: it can't see forked repos (where most of
-     the real work lives) and counts languages by file size, so it misreports the stack.
-     lowlighter/metrics analyzes commits instead. Add a METRICS_TOKEN secret
-     (classic PAT: public_repo, read:user, read:org), run the Metrics workflow once,
-     then UNCOMMENT the line below.
+<!-- Language + activity breakdown by COMMIT analysis (forks included), rendered daily
+     by .github/workflows/metrics.yml. github-readme-stats is omitted on purpose: it
+     can't see forks and counts languages by file size, so it misreports the stack. -->
 <img src="./github-metrics.svg" width="100%" alt="metrics">
--->
 
 
 </div>
