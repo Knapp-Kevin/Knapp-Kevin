@@ -23,9 +23,12 @@ jobs:
         # (profile-green-animate, profile-gitblock, profile-season-animate).
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
-          # Use the PAT (not the default Actions token) so PRIVATE + org-private
-          # contributions are counted, not just public ones.
-          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          # Default Actions token. NOTE: tried the METRICS_TOKEN PAT to fold in private
+          # contributions, but this action's GraphQL `user` query returns null with that
+          # token ("Cannot read properties of null (reading 'repositories')") — it needs a
+          # classic PAT with read:user. The default token works and captures public org
+          # contributions, which is the bulk of it.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
 
       - name: Commit rendered SVGs

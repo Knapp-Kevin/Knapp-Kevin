@@ -171,12 +171,17 @@ inside boundaries they cannot quietly cross, with a trail you can verify after t
 
 <div align="center">
 
-### ACHIEVEMENTS
+### STATS & ACHIEVEMENTS
 
-<!-- Trophy service aggregates contribution stats (commits, PRs, issues, reviews, repos,
-     followers). Stars trophy is excluded via title= because it only counts owned-repo
-     stars (org stars are surfaced on the pin cards instead). -->
-<img src="https://github-profile-trophy.vercel.app/?username=Knapp-Kevin&theme=algolia&no-frame=true&column=7&margin-w=8&margin-h=8&title=Commits,Followers,Issues,PullRequest,Repositories,Reviews,Experience" alt="achievements">
+<!-- Overview stats with stars hidden (owned-repo stars are 0 / misleading; org stars are
+     on the pin cards). include_all_commits counts commits beyond owned repos. -->
+<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Knapp-Kevin&show_icons=true&hide=stars&include_all_commits=true&hide_border=true&bg_color=0d1117&title_color=3B82F6&icon_color=3B82F6&text_color=c9d1d9" alt="stats" height="165">
+
+<br><br>
+
+<!-- Trophies via github-trophies.vercel.app (the primary github-profile-trophy host
+     returns 402). Stars trophy excluded via title= (owned-repo stars only). -->
+<img src="https://github-trophies.vercel.app/?username=Knapp-Kevin&theme=algolia&no-frame=true&column=7&margin-w=8&margin-h=8&title=Commits,Followers,Issues,PullRequest,Repositories,Reviews,Experience" alt="achievements">
 
 </div>
 
@@ -225,10 +230,6 @@ inside boundaries they cannot quietly cross, with a trail you can verify after t
 [![bicameral](https://img.shields.io/badge/bicameral_AI-1d4ed8?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/bicameral-ai/)
 [![X](https://img.shields.io/badge/@mythologiq-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/mythologiq)
 [![Email](https://img.shields.io/badge/krknapp@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:krknapp@gmail.com)
-
-<br>
-
-<img src="https://komarev.com/ghpvc/?username=Knapp-Kevin&color=3B82F6&style=for-the-badge&label=PROFILE+VIEWS" alt="profile views">
 
 </div>
 
