@@ -180,5 +180,5 @@ inside boundaries they cannot quietly cross, with a trail you can verify after t
 ---
 
 <div align="center">
-  <sub><b>MythologIQ</b> · governed agents, verifiable trails · "Autonomy without accountability is just unmonitored risk."</sub>
+  <sub><b>MythologIQ Labs, LLC</b> · governed agents, verifiable trails · "Autonomy without accountability is just unmonitored risk."</sub>
 </div>
