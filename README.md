@@ -9,7 +9,7 @@
 
   <h1>Kevin Knapp</h1>
 
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3200&pause=1000&color=3B82F6&center=true&vCenter=true&width=720&lines=Agent+Governance+Architect;Founder%2C+MythologIQ;Zero-Trust+for+Autonomous+Agents;Gated+SDLC+%C2%B7+Qor-Logic" alt="roles">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3200&pause=1000&color=3B82F6&center=true&vCenter=true&width=720&lines=Agent+Governance+Architect;Founder%2C+MythologIQ+Labs;Zero-Trust+for+Autonomous+Agents;Gated+SDLC+%C2%B7+Qor-Logic" alt="roles">
 
 </div>
 
