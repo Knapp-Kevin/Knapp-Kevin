@@ -1,5 +1,5 @@
 <!-- ═══════════════════════════════════════════════════════════════════════════════════════ -->
-<!-- ║                 M Y T H O L O G I Q   ·   K E V I N   K N A P P                        ║ -->
+<!-- ║           M Y T H O L O G I Q  L A B S ·   K E V I N   K N A P P                        ║ -->
 <!-- ║                 GitHub Profile · Monolith Ledger Edition                                ║ -->
 <!-- ═══════════════════════════════════════════════════════════════════════════════════════ -->
 
@@ -14,7 +14,7 @@
 </div>
 
 ```text
-MYTHOLOGIQ // GOVERNANCE OPERATOR
+MYTHOLOGIQ LABS, LLC// GOVERNANCE OPERATOR
 operator   Kevin Knapp
 role       Agent Governance Architect
 focus      deterministic policy · zero-trust identity · verifiable audit
