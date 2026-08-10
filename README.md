@@ -1,116 +1,111 @@
-<!-- ═══════════════════════════════════════════════════════════════════════════════════════ -->
-<!-- ║           M Y T H O L O G I Q  L A B S ·   K E V I N   K N A P P                        ║ -->
-<!-- ║                 GitHub Profile · Monolith Ledger Edition                                ║ -->
-<!-- ═══════════════════════════════════════════════════════════════════════════════════════ -->
-
 <div align="center">
 
-  <img src="https://avatars.githubusercontent.com/u/205245245?v=4" width="150" alt="Kevin Knapp">
+<img src="https://avatars.githubusercontent.com/u/205245245?v=4" width="145" alt="Kevin Knapp">
 
-  <h1>Kevin Knapp</h1>
+# Kevin Knapp
 
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3200&pause=1000&color=3B82F6&center=true&vCenter=true&width=720&lines=Agent+Governance+Architect;Founder%2C+MythologIQ+Labs;Zero-Trust+for+Autonomous+Agents;Gated+SDLC+%C2%B7+Qor-Logic" alt="roles">
+**Lead AI Product Engineer · Agent Governance Architect · Open-Source Standards Contributor**
+
+[Bicameral](https://www.linkedin.com/company/bicameral-ai/) · [MythologIQ Labs](https://www.linkedin.com/company/mythologiq/) · [Microsoft Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit) · [AgenTrust Agent Manifest](https://github.com/agentrust-io/agent-manifest)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Kevin%20Knapp-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kevin-r-knapp/)
+[![Public work](https://img.shields.io/badge/Public%20Work-Curated%20Index-2563eb?style=flat-square&logo=github&logoColor=white)](PUBLIC_WORK.md)
 
 </div>
 
-```text
-MYTHOLOGIQ LABS, LLC// GOVERNANCE OPERATOR
-operator   Kevin Knapp
-role       Agent Governance Architect
-focus      deterministic policy · zero-trust identity · verifiable audit
-building   FailSafe · FailSafe Pro · agent-governance-toolkit (maintainer)
-doctrine   deny by default · provenance over phrasing · every decision leaves a trail
-```
+> **Governance by prompt is not real governance.** Reliable agent governance requires deterministic enforcement, explicit authority boundaries, verifiable provenance, and evidence that survives outside the model's own reasoning.
 
-<div align="center">
+## What I build
 
-> ### Governance by prompt isn't real governance.
-> #### It can only be enforced reliably by deterministic code, not by instructions a model is free to ignore.
+I work on trustworthy autonomous-agent systems: policy enforcement, authority and identity boundaries, persistent state, evidence provenance, MCP-mediated workflows, governed ingestion, adversarial validation, and machine-verifiable release controls.
 
-</div>
+My work spans three complementary layers:
 
----
+- **Open standards and shared infrastructure:** AgenTrust Agent Manifest and Microsoft's Agent Governance Toolkit.
+- **Production agent systems:** Bicameral, where I work across governed local-first agent runtime, MCP, evidence ingestion, authority boundaries, deterministic validation, and release evidence.
+- **Independent R&D:** MythologIQ Labs, where I build governance, safety, local inference, privacy, and agent-development tooling.
 
-### THE WORK
+## Selected contributions
 
-I build the security layer for autonomous AI agents: deterministic policy enforcement,
-zero-trust identity, execution isolation, and a tamper-evident record of everything an
-agent does. The goal is easy to state and hard to engineer. Let agents act on their own,
-inside boundaries they cannot quietly cross, with a trail you can verify after the fact.
+These links are intentionally specific. They show the work, review history, and implementation context rather than asking a profile paragraph to do all the convincing.
 
-### DOCTRINE
+| Area | Contribution | Evidence |
+| --- | --- | --- |
+| **AgenTrust · Agent Manifest** | Designed the v0.2 incremental memory checkpoint/delta binding protocol for governed persistent agent memory, using RFC 9162 consistency proofs and fail-closed drift semantics. | [Issue #174](https://github.com/agentrust-io/agent-manifest/issues/174) · [PR #190](https://github.com/agentrust-io/agent-manifest/pull/190) |
+| **Microsoft AGT** | Governed accumulated context across delegated multi-agent workflows. | [PR #2800](https://github.com/microsoft/agent-governance-toolkit/pull/2800) |
+| **Microsoft AGT** | Hardened contributor-reputation heuristics for organizational and domain-specialist contributors. | [PR #2852](https://github.com/microsoft/agent-governance-toolkit/pull/2852) |
+| **Microsoft AGT** | MCP trust-verification integration guidance and reference implementation. | [PR #747](https://github.com/microsoft/agent-governance-toolkit/pull/747) |
+| **Bicameral** | Built a provider-neutral ingestion path with GitHub reference acquisition, security screening, evidence identity, and lifecycle tracing. | [Integrations PR #255](https://github.com/BicameralAI/bicameral-integrations/pull/255) |
+| **Bicameral** | Implemented governed real-data conformance and redaction evidence with tamper-evident transformation lineage and fail-closed handling. | [Integrations PR #269](https://github.com/BicameralAI/bicameral-integrations/pull/269) |
+| **Bicameral** | Added deterministic validation and decision-evidence gates for adversarial redaction-backend evaluation. | [Integrations PR #287](https://github.com/BicameralAI/bicameral-integrations/pull/287) |
 
-1. **Deny by default.** Trust is earned per action, not granted per session.
-2. **Provenance over phrasing.** A decision turns on where an instruction came from, not how it is worded.
-3. **Every decision leaves a verifiable trail.** Audit is structural, not optional.
-4. **Governance adapts to the system, not the reverse.**
-5. **Autonomy without accountability is just unmonitored risk.**
+[**View the broader public-work index →**](PUBLIC_WORK.md)
 
----
+## Engineering focus
 
-<div align="center">
+<table>
+<tr>
+<td width="50%" valign="top">
 
-### CAPABILITIES
+### Governance and authority
 
-</div>
+- Deterministic policy enforcement
+- Fail-closed security boundaries
+- Capability and authority mediation
+- Human approval and confirmation contracts
+- Spec-to-runtime conformance
+- Agent and contributor trust models
 
-<table align="center">
-  <tr>
-    <td align="center" width="33%">
-      <img src="https://img.shields.io/badge/Policy_Enforcement-1d4ed8?style=flat-square&labelColor=0d1117"><br>
-      <sub>deterministic verdicts · ALLOW / DENY / AUDIT / BLOCK</sub>
-    </td>
-    <td align="center" width="33%">
-      <img src="https://img.shields.io/badge/Zero--Trust_Identity-2563eb?style=flat-square&labelColor=0d1117"><br>
-      <sub>Ed25519 · SPIFFE · DID · trust scoring</sub>
-    </td>
-    <td align="center" width="33%">
-      <img src="https://img.shields.io/badge/Execution_Isolation-3b82f6?style=flat-square&labelColor=0d1117"><br>
-      <sub>privilege rings · kill switch · sandboxing</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="33%">
-      <img src="https://img.shields.io/badge/Reliability_(SRE)-1e40af?style=flat-square&labelColor=0d1117"><br>
-      <sub>SLOs · error budgets · circuit breakers</sub>
-    </td>
-    <td align="center" width="33%">
-      <img src="https://img.shields.io/badge/Gated_SDLC-4338ca?style=flat-square&labelColor=0d1117"><br>
-      <sub>Qor-Logic · S.H.I.E.L.D. lifecycle · L1/L2/L3</sub>
-    </td>
-    <td align="center" width="33%">
-      <img src="https://img.shields.io/badge/Provenance_&_Audit-0ea5e9?style=flat-square&labelColor=0d1117"><br>
-      <sub>Merkle / HMAC hash-chains · verifiable</sub>
-    </td>
-  </tr>
+</td>
+<td width="50%" valign="top">
+
+### Evidence and state
+
+- Provenance and transformation lineage
+- Tamper-evident audit structures
+- Persistent agent memory governance
+- Replay, currentness, and idempotency
+- Adversarial and negative-path testing
+- Evidence-bound release controls
+
+</td>
+</tr>
 </table>
 
----
+## Selected systems
 
-### SELECTED WORK
+| Project | Role / relevance |
+| --- | --- |
+| **[Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit)** | Maintainer / contributor to open governance infrastructure for autonomous agents. |
+| **[Agent Manifest](https://github.com/agentrust-io/agent-manifest)** | Contributor to verifiable agent identity/state specification and SDK behavior. |
+| **[Bicameral Integrations](https://github.com/BicameralAI/bicameral-integrations)** | Publicly inspectable portion of my Bicameral work: acquisition, normalization, redaction, provenance, evidence, and governed evaluation. |
+| **[FailSafe](https://github.com/MythologIQ-Labs-LLC/FailSafe)** | MythologIQ deterministic governance layer for accountable agent execution. |
+| **[Qor-Logic](https://github.com/MythologIQ-Labs-LLC/Qor-logic)** | Governance framework for agent-driven software development and evidence-bound workflows. |
+| **[presidio-rs](https://github.com/MythologIQ-Labs-LLC/presidio-rs)** | Rust-oriented privacy and redaction infrastructure. |
+| **[GG-CORE](https://github.com/MythologIQ-Labs-LLC/GG-CORE)** | Local inference runtime and integration surface. |
 
-<!-- Stack = static language badge + LIVE star count (shields.io, no token pool, never errors).
-     Replaces the flaky github-readme-stats pin cards. -->
+> Some production Bicameral and MythologIQ repositories are private. I describe that work where relevant, but use public repositories and PRs above as the independently inspectable evidence surface.
 
-| Project | Stack | What it is |
-| --- | --- | --- |
-| **[agent-governance-toolkit](https://github.com/microsoft/agent-governance-toolkit)** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) [![stars](https://img.shields.io/github/stars/microsoft/agent-governance-toolkit?style=flat-square&logo=github&label=&color=3B82F6&labelColor=0d1117)](https://github.com/microsoft/agent-governance-toolkit/stargazers) | Microsoft's open governance toolkit for autonomous agents. Maintainer / contributor. |
-| **[FailSafe](https://github.com/MythologIQ-Labs-LLC/FailSafe)** | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) [![stars](https://img.shields.io/github/stars/MythologIQ-Labs-LLC/FailSafe?style=flat-square&logo=github&label=&color=3B82F6&labelColor=0d1117)](https://github.com/MythologIQ-Labs-LLC/FailSafe/stargazers) | MythologIQ's deterministic governance layer. Shadow Genome, gated SDLC, verifiable ledger. |
-| **[Qor-Logic](https://github.com/MythologIQ-Labs-LLC/Qor-logic)** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) [![stars](https://img.shields.io/github/stars/MythologIQ-Labs-LLC/Qor-logic?style=flat-square&logo=github&label=&color=3B82F6&labelColor=0d1117)](https://github.com/MythologIQ-Labs-LLC/Qor-logic/stargazers) | A gated prompt framework for AI agents. Started in SDLC, expanding to broader governance. |
-| **[bicameral-mcp](https://github.com/BicameralAI/bicameral-mcp)** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) [![stars](https://img.shields.io/github/stars/BicameralAI/bicameral-mcp?style=flat-square&logo=github&label=&color=3B82F6&labelColor=0d1117)](https://github.com/BicameralAI/bicameral-mcp/stargazers) | Agent-facing Bicameral MCP tools: ingest, preflight, binding, and review. |
-| **[bicameral-bot](https://github.com/BicameralAI/bicameral-bot)** | ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white) [![stars](https://img.shields.io/github/stars/BicameralAI/bicameral-bot?style=flat-square&logo=github&label=&color=3B82F6&labelColor=0d1117)](https://github.com/BicameralAI/bicameral-bot/stargazers) | Local-first Bicameral daemon, gateway, protocol, review UX, and local code grounding. |
-| **[bicameral-integrations](https://github.com/BicameralAI/bicameral-integrations)** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) [![stars](https://img.shields.io/github/stars/BicameralAI/bicameral-integrations?style=flat-square&logo=github&label=&color=3B82F6&labelColor=0d1117)](https://github.com/BicameralAI/bicameral-integrations/stargazers) | Open-source Bicameral adapters emitting candidates, evidence, and advisory signals. |
-| **bicameral-cloud** | ![Private](https://img.shields.io/badge/private-555555?style=flat-square&logo=github&logoColor=white) | Hosted Bicameral cloud: code graph, conflict oracle, and grounding optimization. |
+## Operating principles
 
----
+1. **Deny by default.** Authority is earned for the action being attempted, not inherited from a vague session-level trust state.
+2. **Provenance over phrasing.** Where an instruction, artifact, or decision came from matters more than how confidently it is worded.
+3. **Stable identity over presentation.** IDs, digests, specifications, and exact state bind authority. Display order and prose do not.
+4. **Negative paths are part of the contract.** A system is not governed if stale state, replay, partial failure, or unauthorized mutation are undefined.
+5. **Evidence should outlive the agent.** Important decisions need inspectable artifacts, not a claim that the model considered them.
+
+## Toolset
+
+**Languages:** Python · Rust · TypeScript · Go  
+**Agent systems:** MCP · agent orchestration · local inference · RAG · governed memory  
+**Security / trust:** Ed25519 · policy engines · capability mediation · provenance · redaction · tamper-evident ledgers  
+**Platform:** GitHub Actions · Docker · PostgreSQL · SQLite · FastAPI · Tauri
 
 <div align="center">
 
-### ACTIVITY
+### Activity
 
-<!-- Contribution line graph = productivity over time. Separate service from the stat
-     cards; reflects public contributions (+ private once the profile privacy setting is on). -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Knapp-Kevin&custom_title=Contribution%20Activity&bg_color=0d1117&title_color=3B82F6&color=c9d1d9&line=3B82F6&point=ffffff&area=true&area_color=1e3a8a&hide_border=true" width="100%" alt="contribution activity graph">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Knapp-Kevin&custom_title=Contribution%20Activity&bg_color=0d1117&title_color=3B82F6&color=c9d1d9&line=3B82F6&point=ffffff&area=true&area_color=1e3a8a&hide_border=true" width="100%" alt="Kevin Knapp contribution activity">
 
 </div>
 
@@ -118,67 +113,8 @@ inside boundaries they cannot quietly cross, with a trail you can verify after t
 
 <div align="center">
 
-### ACHIEVEMENTS
+**MythologIQ Labs, LLC** · governed agents · verifiable trails · accountable autonomy
 
-<!-- Trophies aggregate contribution stats into ranks (commits, PRs, issues, reviews,
-     repos, followers) and stay up to date. Replaces the github-readme-stats overview
-     card, which hit "Unable to select next GitHub token from pool" under load. Per-repo
-     stars are shown live in the Selected Work table above. Host: github-trophies.vercel.app
-     (the primary github-profile-trophy host returns 402). Stars trophy excluded via title=. -->
-<img src="https://github-trophies.vercel.app/?username=Knapp-Kevin&theme=algolia&no-frame=true&column=7&margin-w=8&margin-h=8&title=Commits,Followers,Issues,PullRequest,Repositories,Reviews,Experience" alt="achievements">
+[LinkedIn](https://www.linkedin.com/in/kevin-r-knapp/) · [MythologIQ Labs](https://www.linkedin.com/company/mythologiq/) · [Bicameral](https://www.linkedin.com/company/bicameral-ai/) · [Public Work](PUBLIC_WORK.md)
 
-</div>
-
----
-
-<div align="center">
-
-### TOOLSET
-
-</div>
-
-**Languages**
-&nbsp;
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-
-**Agents & AI**
-&nbsp;
-![MCP](https://img.shields.io/badge/Model_Context_Protocol-3B82F6?style=flat-square)
-![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
-
-**Build & Runtime**
-&nbsp;
-![Tauri](https://img.shields.io/badge/Tauri-24C8DB?style=flat-square&logo=tauri&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-
-**Infra & Data**
-&nbsp;
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-
----
-
-<div align="center">
-
-### CONNECT
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn_·_Kevin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kevin-r-knapp/)
-[![MythologIQ](https://img.shields.io/badge/MythologIQ-3B82F6?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/mythologiq/)
-[![bicameral](https://img.shields.io/badge/bicameral_AI-1d4ed8?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/bicameral-ai/)
-[![X](https://img.shields.io/badge/@mythologiq-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/mythologiq)
-[![Email](https://img.shields.io/badge/krknapp@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:krknapp@gmail.com)
-
-</div>
-
----
-
-<div align="center">
-  <sub><b>MythologIQ Labs, LLC</b> · governed agents, verifiable trails · "Autonomy without accountability is just unmonitored risk."</sub>
 </div>
