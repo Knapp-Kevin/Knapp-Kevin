@@ -19,11 +19,12 @@
 
 I work on trustworthy autonomous-agent systems: policy enforcement, authority and identity boundaries, persistent state, evidence provenance, MCP-mediated workflows, governed ingestion, adversarial validation, and machine-verifiable release controls.
 
-My work spans three complementary layers:
+My work spans four complementary layers:
 
 - **Open standards and shared infrastructure:** AgenTrust Agent Manifest and Microsoft's Agent Governance Toolkit.
 - **Production agent systems:** Bicameral, where I work across governed local-first agent runtime, MCP, evidence ingestion, authority boundaries, deterministic validation, and release evidence.
-- **Independent R&D:** MythologIQ Labs, where I build governance, safety, local inference, privacy, and agent-development tooling.
+- **Independent implementation:** MythologIQ Labs systems spanning deterministic governance, governed software production, local inference, privacy, memory, and agent-development infrastructure.
+- **Cross-system architecture:** authored reference architectures that consolidate concepts and contracts across my own systems, including governed agent memory, mutation authority, provenance, lifecycle, certification, and conformance.
 
 ## Selected contributions
 
@@ -39,7 +40,21 @@ These links are intentionally specific. They show the work, review history, and 
 | **Bicameral** | Implemented governed real-data conformance and redaction evidence with tamper-evident transformation lineage and fail-closed handling. | [Integrations PR #269](https://github.com/BicameralAI/bicameral-integrations/pull/269) |
 | **Bicameral** | Added deterministic validation and decision-evidence gates for adversarial redaction-backend evaluation. | [Integrations PR #287](https://github.com/BicameralAI/bicameral-integrations/pull/287) |
 
-[**View the broader public-work index →**](PUBLIC_WORK.md)
+[**View the broader technical-work index →**](PUBLIC_WORK.md)
+
+## Authored private systems and architecture
+
+Some of my most substantial systems are private. They are listed here because they are authored work and materially inform my public standards and governance contributions, while remaining clearly separated from independently inspectable public evidence.
+
+| System | What I authored |
+| --- | --- |
+| **Agent Memory** *(private)* | Canonical reference architecture for governed agentic memory across my UOR, EvolveAI, CodeGenome, COREFORGE/Neurospace, PAMA, Qor/FailSafe, and related systems. Defines memory lifecycle, mutation authority, provenance, certification, rollback/replay, privacy, source trust, conformance, and multi-agent shared-memory boundaries. |
+| **FailSafe Pro** *(private)* | Governed software-production system built around a deterministic Rust governance kernel, capability mediation, governed MCP, Merkle/HMAC audit, approval and break-glass controls, evidence compilation, release governance, and runtime observation. |
+| **Qor-logic-plus** *(private)* | Enterprise governance/control-plane extension covering organization policy inheritance, actor trust classification, manifests, evidence obligations, deployment receipts, instruction-file governance, release sequencing, and organization oversight. |
+| **COREFORGE** *(private)* | Local-first multi-agent desktop system combining encrypted memory, policy-governed actions, orchestration, local inference, permissions, plugin boundaries, and user-controlled autonomy. |
+| **Bicameral runtime / MCP** *(private)* | Production agent runtime and MCP work involving session-scoped authority, exact identity binding, replay/currentness checks, atomic decision promotion, bounded confirmation, stable-ID selection, and explicit human/product authority boundaries. |
+
+The distinction here is **visibility, not authorship**. These systems are mine or work I authored in my professional role; private source access simply means a reviewer cannot independently inspect every implementation detail from this profile.
 
 ## Engineering focus
 
@@ -72,7 +87,7 @@ These links are intentionally specific. They show the work, review history, and 
 </tr>
 </table>
 
-## Selected systems
+## Selected public systems
 
 | Project | Role / relevance |
 | --- | --- |
@@ -83,8 +98,6 @@ These links are intentionally specific. They show the work, review history, and 
 | **[Qor-Logic](https://github.com/MythologIQ-Labs-LLC/Qor-logic)** | Governance framework for agent-driven software development and evidence-bound workflows. |
 | **[presidio-rs](https://github.com/MythologIQ-Labs-LLC/presidio-rs)** | Rust-oriented privacy and redaction infrastructure. |
 | **[GG-CORE](https://github.com/MythologIQ-Labs-LLC/GG-CORE)** | Local inference runtime and integration surface. |
-
-> Some production Bicameral and MythologIQ repositories are private. I describe that work where relevant, but use public repositories and PRs above as the independently inspectable evidence surface.
 
 ## Operating principles
 
@@ -115,6 +128,6 @@ These links are intentionally specific. They show the work, review history, and 
 
 **MythologIQ Labs, LLC** · governed agents · verifiable trails · accountable autonomy
 
-[LinkedIn](https://www.linkedin.com/in/kevin-r-knapp/) · [MythologIQ Labs](https://www.linkedin.com/company/mythologiq/) · [Bicameral](https://www.linkedin.com/company/bicameral-ai/) · [Public Work](PUBLIC_WORK.md)
+[LinkedIn](https://www.linkedin.com/in/kevin-r-knapp/) · [MythologIQ Labs](https://www.linkedin.com/company/mythologiq/) · [Bicameral](https://www.linkedin.com/company/bicameral-ai/) · [Technical Work](PUBLIC_WORK.md)
 
 </div>
