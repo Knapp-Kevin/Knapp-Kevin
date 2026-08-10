@@ -1,8 +1,10 @@
-# Public technical work
+# Technical work
 
-This index is a curated evidence surface for my work in agent governance, verifiable AI systems, governed software delivery, privacy, and local-first agent infrastructure.
+This index is a curated evidence surface for my work in agent governance, verifiable AI systems, governed software delivery, privacy, local-first agent infrastructure, and governed agent memory.
 
-It intentionally favors specific issues, pull requests, and repositories over broad claims. Private professional work is described on my profile and CV when relevant, but this file is limited to work an external reviewer can inspect directly.
+It distinguishes between **publicly inspectable evidence** and **authored private systems**. Public issues, pull requests, and repositories are linked directly. Private systems are described separately because lack of public source access changes inspectability, not authorship.
+
+## Publicly inspectable work
 
 ## AgenTrust
 
@@ -48,7 +50,7 @@ Focus: agent governance · trust models · delegated workflows · MCP · complia
 
 ## Bicameral
 
-I serve as Lead AI Product Engineer at Bicameral. Some runtime and MCP repositories are private, so the links below intentionally use the publicly inspectable `bicameral-integrations` repository as the evidence surface.
+I serve as Lead AI Product Engineer at Bicameral. Some runtime and MCP repositories are private, so the links below intentionally use the publicly inspectable `bicameral-integrations` repository as one evidence surface. My private Bicameral runtime and MCP work is described later in this document.
 
 ### Governed acquisition and evidence
 
@@ -119,6 +121,66 @@ Focus: local inference · runtime integration · privacy-preserving AI
 - [EvolveAI](https://github.com/MythologIQ-Labs-LLC/EvolveAI)
 - [CritIQ](https://github.com/MythologIQ-Labs-LLC/CritIQ)
 - [agent-failsafe](https://github.com/MythologIQ-Labs-LLC/agent-failsafe)
+
+## Authored private systems and architecture
+
+The systems below are part of my authored technical body of work. Their source is private, so they are not presented as independently inspectable evidence in the same way as the links above.
+
+### Agent Memory
+
+Canonical reference architecture that consolidates governed-memory concepts across systems I authored, including UOR, EvolveAI, CodeGenome, COREFORGE/Neurospace, PAMA, Qor/FailSafe, and related governance work.
+
+The architecture treats agentic memory as governed state transition over addressable artifacts rather than simple retrieval. It defines:
+
+- stable identity and addressability;
+- evidence and provenance;
+- relevance, saturation, decay, and lifecycle routing;
+- mutation and promotion authority;
+- crystallization and certification;
+- source trust and conflict resolution;
+- temporal causality;
+- privacy and sensitivity classification;
+- governed recall and context assembly;
+- schema evolution;
+- retention, deletion, and tombstones;
+- actor scope, consent, and tenancy;
+- audit events;
+- recovery, rollback, and replay;
+- memory quality metrics;
+- conformance and calibration fixtures;
+- multi-agent shared-memory boundaries.
+
+Focus: governed memory · mutation authority · provenance · certification · conformance · replay · privacy · multi-agent state
+
+### FailSafe Pro
+
+Private governed software-production system centered on deterministic enforcement rather than prompt compliance.
+
+Key authored surfaces include a Rust governance kernel, typed policy evaluation, capability brokerage for filesystem/git/shell/deployment operations, governed MCP tooling, Merkle/HMAC audit structures, approval and break-glass controls, evidence compilation, release governance, observation/anomaly handling, federation, and local-review integration.
+
+Focus: deterministic governance · capability mediation · auditability · governed MCP · software-production controls
+
+### Qor-logic-plus
+
+Private enterprise extension of Qor-Logic that adds higher-tier governance control-plane capabilities over the public framework.
+
+Key authored surfaces include organization policy inheritance, actor trust classification, governance manifests, evidence obligations, deployment receipts, instruction-file governance, release sequencing, cross-repository oversight, and conformance-oriented enforcement.
+
+Focus: enterprise governance · trust classification · policy inheritance · deployment evidence · organization oversight
+
+### COREFORGE
+
+Private local-first multi-agent desktop system integrating governed autonomy with user-owned context and local execution.
+
+Key authored surfaces include encrypted memory, orchestration, local inference, authentication and permission boundaries, governed actions, plugin/runtime controls, and explicit approval surfaces.
+
+Focus: local-first agents · encrypted memory · orchestration · permissions · governed autonomy
+
+### Bicameral runtime and MCP work
+
+Private professional implementation work includes authority- and state-sensitive runtime behavior such as session-scoped candidate state, process-scoped capabilities, exact identity binding, replay/currentness checks, deterministic decision identities, atomic promotion, bounded confirmation, dependency closure, and explicit separation between agent transport and human/Product authority.
+
+Focus: authority boundaries · MCP · deterministic state transitions · exact binding · atomicity · replay · human confirmation
 
 ## Working themes
 
