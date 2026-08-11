@@ -2,9 +2,7 @@
 
 This index is a curated evidence surface for my work in agent governance, verifiable AI systems, governed software delivery, privacy, local-first agent infrastructure, and governed agent memory.
 
-It distinguishes between **publicly inspectable evidence** and **authored private systems**. Public issues, pull requests, and repositories are linked directly. Private systems are described separately because lack of public source access changes inspectability, not authorship.
-
-## Publicly inspectable work
+It distinguishes **publicly inspectable evidence** from private implementation. Public repositories, issues, pull requests, ADRs, and conformance artifacts are linked directly. Private systems are described separately because source visibility changes inspectability, not authorship.
 
 ## AgenTrust
 
@@ -18,6 +16,87 @@ Designed the v0.2 memory checkpoint/delta binding protocol for persistent agent 
 - [Agent Manifest repository](https://github.com/agentrust-io/agent-manifest)
 
 Focus: persistent state · Merkle consistency · drift detection · specification design · conformance
+
+### Agent Memory interoperability wedge
+
+My public [Agent Memory](https://github.com/MythologIQ-Labs-LLC/agent-memory) project now defines a concrete, implementation-first interoperability boundary with the AgenTrust ecosystem.
+
+- [Issue #63: Portable memory governance evidence for AgenTrust interoperability](https://github.com/MythologIQ-Labs-LLC/agent-memory/issues/63)
+- [ADR-021: Portable Memory Governance Evidence Boundary](https://github.com/MythologIQ-Labs-LLC/agent-memory/blob/main/docs/adr/ADR-021-portable-memory-governance-evidence-boundary.md)
+- [Runtime Evidence Program](https://github.com/MythologIQ-Labs-LLC/agent-memory/blob/main/docs/programs/runtime-evidence/README.md)
+
+The ownership boundary is explicit:
+
+```text
+Agent Memory
+  memory semantics + PAMA + lifecycle + canonical receipt
+        |
+        v
+portable governance-evidence projection
+        |
+        v
+AgenTrust / TRACE / Agent Manifest
+  integrity + attestation + correlation + portable verification
+```
+
+The wedge is deliberately not “move Agent Memory into AgenTrust.” It tests whether semantic governance evidence can be independently verified without transferring ownership of memory semantics to the attestation layer.
+
+The reference demonstration is deletion completeness:
+
+```text
+Agent Manifest / external evidence:
+  DEL(memory-123) occurred
+  checkpoint N -> N+1 is valid
+
+Agent Memory:
+  deletion was authorized
+  derived embedding still survives
+
+result:
+  mutation integrity       PASS
+  governance disposition   PASS
+  forgetting completeness FAIL
+```
+
+The corresponding success case proves zero undeclared recoverable residue.
+
+The public technical-artifact direction is:
+
+**A Deletion Is Not a DEL: Verifiable Semantic Governance for Agent Memory**
+
+Core claim:
+
+> Proof that an authorized deletion operation occurred is not proof that the information was forgotten.
+
+The preferred upstream sequence targets AgenTrust integration/conformance surfaces before proposing normative TRACE or Agent Manifest changes. Implementation evidence should expose any genuinely generic missing requirement first.
+
+Focus: portable governance evidence · Agent Manifest checkpoints · TRACE-compatible action evidence · lifecycle verification · deletion completeness · privacy-preserving attestation
+
+## Agent Memory
+
+[MythologIQ-Labs-LLC/agent-memory](https://github.com/MythologIQ-Labs-LLC/agent-memory)
+
+A public reference architecture for governed memory in autonomous and agentic systems.
+
+The architecture treats agentic memory as retained state capable of altering future interpretation, reasoning, planning, tool use, action, or adaptation across a meaningful persistence boundary. It explicitly separates uncertain inference from consequence authority:
+
+> **Probabilistic epistemics. Governed consequences.**  
+> **Uncertainty may propose. Authority constrains.**
+
+### Current architecture and evidence surfaces
+
+- PAMA, Proportional Adaptive Mutation Authority, as native doctrine;
+- explicit deterministic/probabilistic responsibility boundaries;
+- memory lifecycle, correction, supersession, deletion, forgetting, and inheritance;
+- provenance, source trust, temporal causality, sensitivity, tenancy, and recall admission;
+- canonical versus derived-state semantics;
+- conformance fixtures and calibration;
+- 19 accepted architecture decisions with later runtime-evidence ADRs held Proposed until implementation earns acceptance;
+- a runtime-evidence program that requires execution, pinning, reproducibility, negative paths, and reconstructable receipts;
+- executable reference-adapter work against real memory substrates;
+- a specific AgenTrust interoperability program through issue #63 and ADR-021.
+
+Focus: governed memory · mutation authority · provenance · lifecycle · forgetting · conformance · runtime evidence · interoperability
 
 ## Microsoft Agent Governance Toolkit
 
@@ -39,9 +118,7 @@ Selected contributions:
   Mapping regulatory obligations into concrete governance capabilities and implementation gaps.
 
 - [PR #745: OWASP LLM Top 10 mapping](https://github.com/microsoft/agent-governance-toolkit/pull/745)
-
 - [PR #741: custom governance integrations tutorial](https://github.com/microsoft/agent-governance-toolkit/pull/741)
-
 - [PR #738: governance visualization system](https://github.com/microsoft/agent-governance-toolkit/pull/738)
 
 Repository: [microsoft/agent-governance-toolkit](https://github.com/microsoft/agent-governance-toolkit)
@@ -50,7 +127,7 @@ Focus: agent governance · trust models · delegated workflows · MCP · complia
 
 ## Bicameral
 
-I serve as Lead AI Product Engineer at Bicameral. Some runtime and MCP repositories are private, so the links below intentionally use the publicly inspectable `bicameral-integrations` repository as one evidence surface. My private Bicameral runtime and MCP work is described later in this document.
+I serve as Lead AI Product Engineer at Bicameral. Some runtime and MCP repositories are private, so the links below use the publicly inspectable `bicameral-integrations` repository as one evidence surface. Private runtime and MCP implementation is summarized later.
 
 ### Governed acquisition and evidence
 
@@ -62,14 +139,9 @@ I serve as Lead AI Product Engineer at Bicameral. Some runtime and MCP repositor
 
 ### Governed technical decision evidence
 
-- [PR #281: candidate-neutral redaction backend evaluation contract](https://github.com/BicameralAI/bicameral-integrations/pull/281)  
-  ADR and executable evaluation contract covering leakage, identity mutation, network behavior, determinism, cleanup, licensing, performance, and receipt compatibility without pre-selecting a backend.
-
-- [PR #287: deterministic evaluation and decision-evidence gates](https://github.com/BicameralAI/bicameral-integrations/pull/287)  
-  Offline corpus validation, artifact-digest checks, adversarial review contracts, owner-decision evidence, and fail-closed eligibility logic.
-
-- [PR #292: hosted exact-head validation for stacked evaluation work](https://github.com/BicameralAI/bicameral-integrations/pull/292)  
-  Exact-head CI evidence, committed artifact consistency checks, mutation tests, and bounded validation receipts.
+- [PR #281: candidate-neutral redaction backend evaluation contract](https://github.com/BicameralAI/bicameral-integrations/pull/281)
+- [PR #287: deterministic evaluation and decision-evidence gates](https://github.com/BicameralAI/bicameral-integrations/pull/287)
+- [PR #292: hosted exact-head validation for stacked evaluation work](https://github.com/BicameralAI/bicameral-integrations/pull/292)
 
 ### Runtime safety and integration boundaries
 
@@ -81,7 +153,7 @@ Repository: [BicameralAI/bicameral-integrations](https://github.com/BicameralAI/
 
 Focus: evidence provenance · acquisition trust · PII redaction · authority separation · exact-head validation · adversarial review · governed delivery
 
-## MythologIQ Labs
+## MythologIQ Labs public systems
 
 ### FailSafe
 
@@ -122,35 +194,7 @@ Focus: local inference · runtime integration · privacy-preserving AI
 - [CritIQ](https://github.com/MythologIQ-Labs-LLC/CritIQ)
 - [agent-failsafe](https://github.com/MythologIQ-Labs-LLC/agent-failsafe)
 
-## Authored private systems and architecture
-
-The systems below are part of my authored technical body of work. Their source is private, so they are not presented as independently inspectable evidence in the same way as the links above.
-
-### Agent Memory
-
-Canonical reference architecture that consolidates governed-memory concepts across systems I authored, including UOR, EvolveAI, CodeGenome, COREFORGE/Neurospace, PAMA, Qor/FailSafe, and related governance work.
-
-The architecture treats agentic memory as governed state transition over addressable artifacts rather than simple retrieval. It defines:
-
-- stable identity and addressability;
-- evidence and provenance;
-- relevance, saturation, decay, and lifecycle routing;
-- mutation and promotion authority;
-- crystallization and certification;
-- source trust and conflict resolution;
-- temporal causality;
-- privacy and sensitivity classification;
-- governed recall and context assembly;
-- schema evolution;
-- retention, deletion, and tombstones;
-- actor scope, consent, and tenancy;
-- audit events;
-- recovery, rollback, and replay;
-- memory quality metrics;
-- conformance and calibration fixtures;
-- multi-agent shared-memory boundaries.
-
-Focus: governed memory · mutation authority · provenance · certification · conformance · replay · privacy · multi-agent state
+## Authored private systems and professional implementation
 
 ### FailSafe Pro
 
@@ -189,7 +233,7 @@ Across these projects, the recurring engineering questions are the same:
 1. What entity actually has authority to mutate state?
 2. How is that authority bound to identity, scope, version, and current state?
 3. What evidence proves the operation was valid after the agent process is gone?
-4. What happens under stale state, replay, partial failure, ambiguous provenance, or adversarial input?
+4. What happens under stale state, replay, partial failure, ambiguous provenance, residual data, or adversarial input?
 5. Can a human, verifier, or independent implementation reproduce the result without trusting model prose?
 
 Those questions are the center of my work in agent governance and verifiable AI systems.
