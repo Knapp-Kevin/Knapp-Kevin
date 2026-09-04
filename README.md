@@ -36,15 +36,6 @@ I build trustworthy autonomous-agent systems across four connected areas:
 
 [**Full technical-work index →**](PUBLIC_WORK.md)
 
-## Public systems
-
-- **[B.O.B.](https://github.com/Knapp-Kevin/BOB)** · local-first personal AI workbench with Rust-owned state, provider-independent inference, preview-before-apply controls, and portable host boundaries.
-- **[Agent Memory](https://github.com/MythologIQ-Labs-LLC/agent-memory)** · governed memory architecture, PAMA, lifecycle, forgetting, conformance, and runtime evidence.
-- **[Qor-Logic](https://github.com/MythologIQ-Labs-LLC/Qor-logic)** · governance for agent-driven software development and evidence-bound workflows.
-- **[FailSafe](https://github.com/MythologIQ-Labs-LLC/FailSafe)** · deterministic governance and accountable execution for autonomous agents.
-- **[skillz](https://github.com/Knapp-Kevin/skillz)** · governed reference corpus and reusable skill infrastructure for AI agents.
-- **[presidio-rs](https://github.com/MythologIQ-Labs-LLC/presidio-rs)** · Rust-oriented privacy and redaction infrastructure.
-
 ## Operating principles
 
 1. **Uncertainty may propose. Authority constrains.** Durable consequences require bounded permission.
