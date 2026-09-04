@@ -22,7 +22,7 @@ I build trustworthy autonomous-agent systems across four connected areas:
 - **Production agent systems:** governed local-first runtime, MCP, evidence ingestion, authority boundaries, deterministic validation, and release evidence at Bicameral.
 - **Open-source governance:** listed maintainer on [Microsoft's Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit/blob/main/MAINTAINERS.md), with work spanning policy enforcement, delegated-context governance, contributor trust, MCP verification, and security controls.
 - **Verifiable agent state:** contributor to [AgenTrust Agent Manifest](https://github.com/agentrust-io/agent-manifest), including governed persistent-memory checkpointing and fail-closed state-evolution semantics.
-- **Independent systems:** governed memory, agent-driven software development, privacy, local inference, and reusable AI skill infrastructure through MythologIQ Labs and personal open-source work.
+- **Independent systems:** local-first agent products, governed memory, agent-driven software development, privacy, and reusable AI skill infrastructure.
 
 ## Selected public evidence
 
@@ -38,6 +38,7 @@ I build trustworthy autonomous-agent systems across four connected areas:
 
 ## Public systems
 
+- **[B.O.B.](https://github.com/Knapp-Kevin/BOB)** · local-first personal AI workbench with Rust-owned state, provider-independent inference, preview-before-apply controls, and portable host boundaries.
 - **[Agent Memory](https://github.com/MythologIQ-Labs-LLC/agent-memory)** · governed memory architecture, PAMA, lifecycle, forgetting, conformance, and runtime evidence.
 - **[Qor-Logic](https://github.com/MythologIQ-Labs-LLC/Qor-logic)** · governance for agent-driven software development and evidence-bound workflows.
 - **[FailSafe](https://github.com/MythologIQ-Labs-LLC/FailSafe)** · deterministic governance and accountable execution for autonomous agents.
