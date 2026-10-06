@@ -4,6 +4,17 @@ This index is a curated evidence surface for my work in agent governance, verifi
 
 It distinguishes **publicly inspectable evidence** from private implementation. Public repositories, issues, pull requests, ADRs, and conformance artifacts are linked directly. Private systems are described separately because source visibility changes inspectability, not authorship.
 
+## Portfolio map
+
+The projects below are intentionally not presented as if they are all at the same maturity or serve the same audience.
+
+| Tier | Projects | Role |
+| --- | --- | --- |
+| **Primary side projects** | [Job Ranger](https://github.com/MythologIQ-Labs-LLC/job-ranger) · [Viable](https://github.com/MythologIQ-Labs-LLC/Viable) · [This Voice Thing](https://github.com/Knapp-Kevin/this-voice-thing) | Active user-facing products |
+| **Active infrastructure** | [skillz](https://github.com/Knapp-Kevin/skillz) · **COREFORGE** | Reusable agent infrastructure and local orchestration; COREFORGE is private and actively developed |
+| **Enterprise direction** | [Agent Memory](https://github.com/MythologIQ-Labs-LLC/agent-memory) · **Qortara Logic** · **Qortara SDLC** · **Qortara Navigator** · [Qortara Governance](https://github.com/MythologIQ-Labs-LLC/qortara-governance) | Enterprise-tier governed-agent and software-delivery architecture |
+| **Foundational lineage** | [FailSafe](https://github.com/MythologIQ-Labs-LLC/FailSafe) · [Qor-logic](https://github.com/MythologIQ-Labs-LLC/Qor-logic) | Earlier systems whose lessons feed the enterprise direction; Qor-logic is frozen and superseded |
+
 ## AgenTrust
 
 ### Agent Manifest
@@ -76,7 +87,7 @@ Focus: portable governance evidence · Agent Manifest checkpoints · TRACE-compa
 
 [MythologIQ-Labs-LLC/agent-memory](https://github.com/MythologIQ-Labs-LLC/agent-memory)
 
-A public reference architecture for governed memory in autonomous and agentic systems.
+Agent Memory is part of the enterprise-tier Qortara direction: a public reference architecture for governed memory in autonomous and agentic systems, intended to establish durable memory semantics that higher-level enterprise systems can consume without collapsing memory authority into the application layer.
 
 The architecture treats agentic memory as retained state capable of altering future interpretation, reasoning, planning, tool use, action, or adaptation across a meaningful persistence boundary. It explicitly separates uncertain inference from consequence authority:
 
@@ -167,21 +178,45 @@ The stable v1.2.0 release ships for Windows and macOS. The current development l
 
 Focus: product engineering · local-first architecture · Career Ops · evidence provenance · deterministic document generation · PWA/Electron · user authority
 
+### Viable
+
+[MythologIQ-Labs-LLC/Viable](https://github.com/MythologIQ-Labs-LLC/Viable)
+
+Local-first marketability operating system for products, public repositories, founders, maintainers, and small teams. Viable connects product truth, ICP discovery, marketability assessment, external evidence, campaigns, approved external action, outcomes, and learning through one governed model.
+
+Focus: product strategy · marketability · local-first architecture · evidence provenance · human approval · product learning
+
+### This Voice Thing
+
+[Knapp-Kevin/this-voice-thing](https://github.com/Knapp-Kevin/this-voice-thing)
+
+Windows-first, local-first desktop voice workbench evolved from Chatterbox-TTS-UI into a multi-engine application. It supports six local speech engines, voice cloning and design, document narration, multi-speaker workflows, Whisper transcription, model management, reusable voices, audio finishing, and a local API.
+
+Focus: local voice AI · TTS · STT · voice cloning · model orchestration · desktop product engineering
+
+### skillz
+
+[Knapp-Kevin/skillz](https://github.com/Knapp-Kevin/skillz)
+
+Active provenance-aware skill knowledge infrastructure for agents, combining first-party skills with exact-version third-party review evidence so capability reuse does not require treating imported instructions as unexamined authority.
+
+Focus: agent skills · provenance · reusable capability knowledge · third-party review · instruction governance
+
 ### FailSafe
 
 [MythologIQ-Labs-LLC/FailSafe](https://github.com/MythologIQ-Labs-LLC/FailSafe)
 
-Deterministic governance and accountable execution for autonomous agents, centered on enforceable policy, gated workflows, and verifiable evidence rather than prompt-only controls.
+An earlier, shipped generation of the governed-development work: a local-first VS Code/Cursor agent debugger and governance surface centered on deterministic policy, gated workflows, integrations, and verifiable evidence. Its product and architectural lessons feed the later Qortara enterprise direction.
 
-Focus: agent safety · deterministic governance · execution control · auditability
+Focus: agent safety · deterministic governance · editor integration · execution control · auditability
 
-### Qor-Logic
+### Qor-logic
 
 [MythologIQ-Labs-LLC/Qor-logic](https://github.com/MythologIQ-Labs-LLC/Qor-logic)
 
-Governance framework for agent-driven software development, including gated research/planning/review/implementation workflows, evidence requirements, and tamper-evident governance history.
+Foundational governance framework for agent-driven software development, including gated research/planning/review/implementation workflows, evidence requirements, and tamper-evident governance history. Qor-logic is feature-complete, frozen at its final release, and superseded by later architecture rather than being an active flagship project.
 
-Focus: governed SDLC · adversarial review · evidence gates · agent operating discipline
+Focus: governed SDLC · adversarial review · evidence gates · agent operating discipline · architectural lineage
 
 ### presidio-rs
 
@@ -206,6 +241,18 @@ Focus: local inference · runtime integration · privacy-preserving AI
 - [CritIQ](https://github.com/MythologIQ-Labs-LLC/CritIQ)
 - [agent-failsafe](https://github.com/MythologIQ-Labs-LLC/agent-failsafe)
 
+## Enterprise product direction
+
+The Qortara family is the enterprise-tier direction rather than a collection of unrelated side projects. Individual repositories and components sit at different maturity and visibility levels, but the intended product architecture is coherent:
+
+- **Agent Memory** provides governed persistent-state semantics, lifecycle, provenance, forgetting, conformance, and portable evidence.
+- **Qortara Logic** is the governed development engine, carrying forward the useful semantics established in Qor-logic and later enterprise extensions.
+- **Qortara SDLC** composes development, governance, evidence, compliance, oversight, operations, and administration into the team-facing governed software-delivery product.
+- **Qortara Navigator** is the operator-facing observation, attention, and navigation surface for understanding current state and moving into the correct governed workflow.
+- **Qortara Governance** provides deterministic policy enforcement at agent tool-dispatch boundaries, with a public local layer and a hosted enterprise boundary.
+
+The goal is not to turn every component into one repository. It is to preserve clear semantic authority while presenting customers with one coherent enterprise product family.
+
 ## Authored private systems and professional implementation
 
 ### FailSafe Pro
@@ -226,9 +273,11 @@ Focus: enterprise governance · trust classification · policy inheritance · de
 
 ### COREFORGE
 
-Private local-first multi-agent desktop system integrating governed autonomy with user-owned context and local execution.
+Private, actively developed local-first multi-agent desktop system integrating governed autonomy with user-owned context and local execution.
 
 Key authored surfaces include encrypted memory, orchestration, local inference, authentication and permission boundaries, governed actions, plugin/runtime controls, and explicit approval surfaces.
+
+COREFORGE began earlier than the current Qortara enterprise architecture, but it is not historical or abandoned; it remains an active infrastructure/product-development line.
 
 Focus: local-first agents · encrypted memory · orchestration · permissions · governed autonomy
 
