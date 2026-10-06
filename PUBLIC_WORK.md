@@ -155,6 +155,18 @@ Focus: evidence provenance · acquisition trust · PII redaction · authority se
 
 ## MythologIQ Labs public systems
 
+### Job Ranger
+
+[MythologIQ-Labs-LLC/job-ranger](https://github.com/MythologIQ-Labs-LLC/job-ranger)
+
+Local-first Career Ops product designed around quality over application volume. It helps a person establish career direction, build factual Career Evidence, discover and evaluate opportunities, prepare truthful application materials, manage the application lifecycle, and preserve the evidence behind those decisions.
+
+The product separates eligibility, evidence coverage, career-track alignment, preferences, blockers, and unknowns rather than collapsing them into one opaque fit score. Career data stays local by default, and consequential actions remain under the user's control.
+
+The stable v1.2.0 release ships for Windows and macOS. The current development line also includes a shared-core PWA runtime designed for local self-hosting and a future public web delivery path.
+
+Focus: product engineering · local-first architecture · Career Ops · evidence provenance · deterministic document generation · PWA/Electron · user authority
+
 ### FailSafe
 
 [MythologIQ-Labs-LLC/FailSafe](https://github.com/MythologIQ-Labs-LLC/FailSafe)
