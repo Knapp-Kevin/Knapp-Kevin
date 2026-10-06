@@ -22,7 +22,7 @@ I build trustworthy autonomous-agent systems across four connected areas:
 - **Production agent systems:** governed local-first runtime, MCP, evidence ingestion, authority boundaries, deterministic validation, and release evidence at Bicameral.
 - **Open-source governance:** listed maintainer on [Microsoft's Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit/blob/main/MAINTAINERS.md), with work spanning policy enforcement, delegated-context governance, contributor trust, MCP verification, and security controls.
 - **Verifiable agent state:** contributor to [AgenTrust Agent Manifest](https://github.com/agentrust-io/agent-manifest), including governed persistent-memory checkpointing and fail-closed state-evolution semantics.
-- **Independent systems:** local-first agent products, governed memory, agent-driven software development, privacy, and reusable AI skill infrastructure.
+- **Independent systems:** local-first products, Career Ops, governed memory, agent-driven software development, privacy, and reusable AI infrastructure.
 
 ## Selected public evidence
 
@@ -31,6 +31,7 @@ I build trustworthy autonomous-agent systems across four connected areas:
 | **Microsoft Agent Governance Toolkit** | Governed accumulated context across delegated multi-agent workflows; contributor trust and MCP verification work. | [Maintainers](https://github.com/microsoft/agent-governance-toolkit/blob/main/MAINTAINERS.md) · [PR #2800](https://github.com/microsoft/agent-governance-toolkit/pull/2800) · [PR #2852](https://github.com/microsoft/agent-governance-toolkit/pull/2852) |
 | **AgenTrust · Agent Manifest** | Designed the v0.2 incremental memory checkpoint/delta binding protocol for governed persistent state. | [Issue #174](https://github.com/agentrust-io/agent-manifest/issues/174) · [PR #190](https://github.com/agentrust-io/agent-manifest/pull/190) |
 | **Agent Memory** | Public reference architecture for governed memory, lifecycle, forgetting, provenance, conformance, and runtime evidence. | [Repository](https://github.com/MythologIQ-Labs-LLC/agent-memory) · [ADR-021](https://github.com/MythologIQ-Labs-LLC/agent-memory/blob/main/docs/adr/ADR-021-portable-memory-governance-evidence-boundary.md) |
+| **Job Ranger** | Built and shipped a local-first Career Ops product for career direction, evidence-backed opportunity assessment, truthful application materials, and deliberate job-search workflows. | [Repository](https://github.com/MythologIQ-Labs-LLC/job-ranger) · [v1.2.0](https://github.com/MythologIQ-Labs-LLC/job-ranger/releases/tag/v1.2.0) |
 | **Bicameral** | Governed acquisition, redaction, provenance, decision evidence, and fail-closed validation in a production agent stack. | [PR #269](https://github.com/BicameralAI/bicameral-integrations/pull/269) · [PR #287](https://github.com/BicameralAI/bicameral-integrations/pull/287) |
 | **skillz** | Passive, provenance-aware skill knowledge resource for agents, with first-party skills and exact-version third-party review evidence. | [Repository](https://github.com/Knapp-Kevin/skillz) |
 
